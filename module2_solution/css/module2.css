@@ -1,0 +1,16 @@
+
+/********** Base styles **********/
+
+
+/* Simple Responsive Framework. */
+* { color: black; 
+    font-size: 18px; 
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; }
+
+section {background-color: grey; 
+          }
+h2 {text-align: right;}
+section.chicken h2 {background-color:pink; }
+section.beef h2 {color: white; background-color: red; }
+section.sushi h2 {background-color: yellow; }
