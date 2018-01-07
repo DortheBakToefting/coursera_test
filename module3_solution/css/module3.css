@@ -1,0 +1,95 @@
+body {
+	background-color: #FFFFFF;
+}
+
+.container {
+	margin: 5px;
+}
+.navbar-brand h1 {
+	color: #CCFFE5;
+	font-size: 1.8em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -8px;
+	margin-bottom: -8px;
+	height: 60px;
+}
+#header-nav {
+	background-color: #000099; /* moerkeblaa */
+	border-radius: 0;
+	border: 0;
+	clear: both;
+}
+h2 {
+	font-size: 2.8em;
+	color: #000099;
+	text-shadow: 5px 5px 7px #99CCFF;
+}
+
+h3 {
+	font-size: 2em;
+	color: #000099; /* moerkeblaa */
+}
+
+p {
+	color: #000033; /*meget moerkeblaa */
+	padding-top: 60px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #CCFFE5; /* lysegroen */
+	background-color: #000099; /* moerkeblaa */
+}
+
+.navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-collapse h3 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+@media (max-width: 767px) {
+	#collapsable-menu {
+    	background-color: #FFFFCC; /* lyseroed */
+    	padding-left: 0;
+    	padding-right: 0;
+  	}
+  	#nav-list li {
+  	  	}
+  	.navbar-nav {
+   margin: 0;
+} 	
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 2px solid #000099;
+  }
+}
+
+#hometiles div {
+	padding: 0;
+}
+#chicken-box, #beef-box, #sushi-box {
+	background-color: #CCFFE5; /* lysegroen */
+	height:800px;
+	margin: 10px 10px 10px 10px;
+	padding: 5px;
+	border: 5px solid rgb(0,0,153) ;
+	overflow: hidden;
+	position: relative;
+
+	
+}
+
+#chicken-box h3, #beef-box h3, #sushi-box h3 {	
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0;
+	font-weight: bold;
+	color: #000099; /* moerkeblaa */
+	font-size: 1.5em;
+}
